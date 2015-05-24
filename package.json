@@ -1,0 +1,21 @@
+{
+  "name": "react-mocha-jsdom",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Unit testing React with Mocha and jsdom with a good structure",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel/register  app/components/**/__test__/*-test.js jsdom-setup.js"
+  },
+  "author": "koly",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "gulp": "^3.8.11",
+    "gulp-shell": "^0.4.1",
+    "jsdom": "^5.4.3",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}

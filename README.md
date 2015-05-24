@@ -40,4 +40,4 @@ This command in package.json is the command to run mocha tests.
 * it uses babeljs register to interpret JSX contents
 * it uses asterisks to include multiple files
 * `jsdom-setup.js` is where the dom is setted up using jsdom
-* if you put `jsdom-setup.js` before 'app/components/\*\*/\_\_test\_\_/\*-test.js`, an error occurs, however, you can use `mocha test1.js test2.js` or `mocha test2.js test1.js`
+* if you put `jsdom-setup.js` before `app/components/\*\*/\_\_test\_\_/\*-test.js`, an error occurs, however, you can use `mocha test1.js test2.js` or `mocha test2.js test1.js`
